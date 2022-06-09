@@ -26,7 +26,7 @@
                     if (!res.code) {
                         // 将获取到的 token 存储至 localStorage，然后跳转到聊天页面
                         localStorage.token = xhr.getResponseHeader("authorization");
-                        window.location.replace(baseURL+'index.html');
+                        window.location.replace(baseURL+'html/index.html');
                     } else {
                         window.alert(res.msg);
                     }

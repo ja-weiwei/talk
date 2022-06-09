@@ -98,7 +98,7 @@
                             // 将返回的 token 存储至 localStorage
                             localStorage.token = xhr.getResponseHeader("authorization");
                             // 跳转至聊天页面
-                            window.location.replace(baseURL+'index.html');
+                            window.location.replace(baseURL+'html/index.html');
                         } else {
                             window.alert(res.msg);
                         }

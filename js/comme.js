@@ -1,1 +1,1 @@
-var baseURL = /html/;
+var baseURL = /talk/

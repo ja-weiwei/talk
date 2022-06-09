@@ -8,7 +8,7 @@
     // 1. 点击关闭按钮能够退出
     document.getElementById("closeBtn").onclick = function () {
         localStorage.removeItem('token'); // 清除 token
-        window.location.replace(baseURL+"login.html");
+        window.location.replace(baseURL+"html/login.html");
     }
 
     // 2. 获取用户的信息，渲染到右侧对应区域
